@@ -9,7 +9,7 @@ client.on("message", (message) => {
     message.channel.send("hola!!");
   }
 });
-client.login(proccess.env.TokenSecreto);       
+client.login(proccess.env.BOT_TOKEN);       
 
 
 client.on("guildMemberAdd", (member) => {
