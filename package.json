@@ -1,0 +1,14 @@
+{
+  "name": "SSA RECIBIDOR",
+  "description": "recibidor",
+  "version": "0.0.0",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "11.1.0"
+  }
+}
+
+   
