@@ -5,8 +5,8 @@ client.on("ready", () => {
    console.log("Estoy listo!");
 });
 client.on("message", (message) => {
-  if (message.content.startsWith("hola")) {
-    message.channel.send("hola!!");
+  if (message.content.startsWith("help")) {
+    message.channel.send("Si neccesitas ayuda contacta con un @dueño o un @ moderador");
   }
 });
 client.login(proccess.env.BOT_TOKEN);       
