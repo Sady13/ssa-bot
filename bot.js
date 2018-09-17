@@ -9,7 +9,7 @@ client.on("message", (message) => {
     message.channel.send("Si neccesitas ayuda contacta con un @dueño o un @ moderador");
   }
 });
-client.login(proccess.env.BOT_TOKEN);       
+client.login(proccess.env.NDc3NDQxMTc5Njc2NTczNzA3.DoF0GQ.vk6FPJEVt-1NLTHEQGGlr9J_AHs);       
 
 
 client.on("guildMemberAdd", (member) => {
